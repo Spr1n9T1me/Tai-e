@@ -163,5 +163,5 @@
   id: dropped-exception
 
 - description: Code Metrics Analysis
-  analysisClass: pascal.taie.analysis.misc.CodeMetricsAnalysis
+  analysisClass: com.pecker.analysis.misc.CodeMetricsAnalysis
   id: dropped-exception
