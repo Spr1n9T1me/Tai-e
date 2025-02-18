@@ -161,3 +161,7 @@
 - description: find the method that may drop or ignore exceptions
   analysisClass: pascal.taie.analysis.bugfinder.DroppedException
   id: dropped-exception
+
+- description: Code Metrics Analysis
+  analysisClass: pascal.taie.analysis.misc.CodeMetricsAnalysis
+  id: dropped-exception
