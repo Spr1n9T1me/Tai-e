@@ -47,7 +47,7 @@ import java.util.Set;
 /**
  * Handles sources in taint analysis.
  */
-class SourceHandler extends OnFlyHandler {
+public class SourceHandler extends OnFlyHandler {
 
     /**
      * Map from a source method to its result sources.

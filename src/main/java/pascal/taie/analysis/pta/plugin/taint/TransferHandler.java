@@ -59,7 +59,7 @@ import java.util.Set;
 /**
  * Handles taint transfers in taint analysis.
  */
-class TransferHandler extends OnFlyHandler {
+public class TransferHandler extends OnFlyHandler {
 
     private static final Logger logger = LogManager.getLogger(TransferHandler.class);
 

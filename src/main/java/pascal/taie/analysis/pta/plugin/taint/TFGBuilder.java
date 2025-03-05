@@ -54,7 +54,7 @@ import java.util.stream.Stream;
 /**
  * Taint flow graph builder.
  */
-class TFGBuilder {
+public class TFGBuilder {
 
     private static final Logger logger = LogManager.getLogger(TFGBuilder.class);
 

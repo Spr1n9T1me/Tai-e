@@ -33,7 +33,7 @@ import pascal.taie.util.graph.Graph;
 import java.util.Map;
 import java.util.Set;
 
-class TaintFlowGraph implements Graph<Node> {
+public class TaintFlowGraph implements Graph<Node> {
 
     private final Map<Node, SourcePoint> sourceNode2SourcePoint;
 

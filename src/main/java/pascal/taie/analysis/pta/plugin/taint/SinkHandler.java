@@ -45,7 +45,7 @@ import java.util.stream.Collectors;
 /**
  * Handles sinks in taint analysis.
  */
-class SinkHandler extends Handler {
+public class SinkHandler extends Handler {
 
     private final List<Sink> sinks;
 

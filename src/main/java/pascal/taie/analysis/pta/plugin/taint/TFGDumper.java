@@ -45,7 +45,7 @@ import java.util.function.Function;
 /**
  * Taint flow graph dumper.
  */
-class TFGDumper extends DotDumper<Node> {
+public class TFGDumper extends DotDumper<Node> {
 
     private static final Logger logger = LogManager.getLogger(TFGDumper.class);
 
